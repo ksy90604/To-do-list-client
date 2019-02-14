@@ -13,7 +13,7 @@ RESTful api 서버를 호출하는 client web application
 ```
 - Framework : Spring Boot 2.1.2
 - Build Tool : maven
-- 사용언어 및 구현 기술 : Java, Jquery, Javascrpit, ajax, json
+- 사용언어 및 구현 기술 : Java, Jquery, Javascrpit, ajax, json, jsp
 ```
 
 # 2.개발환경
@@ -61,6 +61,7 @@ RESTful api 서버를 호출하는 client web application
 > - annotation 활용을 높임
 > - 소스에 sql문을 삽입하여 실행 시 DB 생성 및 테스트 data 삽입
 > - client 단에서 restTemplate을 사용하여 데이터 전송
+> - client 단 jsp 페이지에서 ajax로 client controller를 통해 REST ful 서버 호출
 ```
   1) 할 일 조회
   - server url ex : http://localhost:8080/task/1
